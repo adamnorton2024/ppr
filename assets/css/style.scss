@@ -1,0 +1,32 @@
+$color-background : #ffffff;
+$color-bg-trans : rgba(255,255,255,0.8);
+$color-text : #000f;
+
+// * {
+//     border: 1px dotted black;
+// }
+
+html {
+    body {
+        background: $color-background;
+        .jumbotron {
+            height: 100vh;
+            background-image: url(../images/bg_office_zen.jpg);
+            background-repeat: no-repeat;
+            background-position: top center;
+            background-size: cover;
+            padding-top: .25em;
+            padding-left: 0em;
+            padding-right: 0em;
+            .nav-outline {
+                border: 1px solid blue;
+                border-radius: .25rem;
+                width: 7rem;
+            }
+            .text-box {
+                background-color: $color-bg-trans;
+                padding: 3rem;
+            }
+        }
+    }
+}

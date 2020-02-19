@@ -1,0 +1,24 @@
+html body {
+  background: #ffffff;
+}
+html body .jumbotron {
+  height: 100vh;
+  background-image: url(../images/bg_office_zen.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  padding-top: 0.25em;
+  padding-left: 0em;
+  padding-right: 0em;
+}
+html body .jumbotron .nav-outline {
+  border: 1px solid blue;
+  border-radius: 0.25rem;
+  width: 7rem;
+}
+html body .jumbotron .text-box {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 3rem;
+}
+
+/*# sourceMappingURL=style.css.map */
