@@ -18,10 +18,26 @@ html body .jumbotron {
 }
 html body .jumbotron .display-1 {
   color: #008fb4;
+  font-size: 8rem;
+}
+@media only screen and (min-width: 0px) and (max-width: 414px) {
+  html body .jumbotron .display-1 {
+    font-size: 3.5rem;
+  }
+}
+@media only screen and (min-width: 414px) and (max-width: 575.98px) {
+  html body .jumbotron .display-1 {
+    font-size: 4rem;
+  }
 }
 html body .jumbotron .lead {
   color: #ffa600;
-  font-size: 1.5rem;
+  font-size: 3rem;
+}
+@media only screen and (max-width: 575.98px) {
+  html body .jumbotron .lead {
+    font-size: 2rem;
+  }
 }
 html body .section p {
   color: #3f4561;

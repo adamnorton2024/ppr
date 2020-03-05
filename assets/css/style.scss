@@ -1,9 +1,17 @@
+// Color Variables
 $color-background : #ffffff;
 $color-bg-trans : rgba(255,255,255,0.8);
 $color-text : #0d0e13;
 $color-blue-dark: #3f4561;
 $color-blue-light: #008fb4;
 $color-orange: #ffa600;
+
+// Variables - Screen Size Breakpoints
+$breakpoint-tiny-phones: 414px;
+$breakpoint-portrait-phones: 575.98px;
+$breakpoint-landscape-phones: 767.98px;
+$breakpoint-tablets: 991.98px;
+$breakpoint-desktop: 1199.98px;
 
 // * {
 //     border: 1px dotted black;
@@ -29,10 +37,23 @@ html {
             background-size: contain;
             .display-1{
                 color: $color-blue-light;
+                font-size: 8rem;
+
+                @media only screen and (min-width: 0px) and (max-width: $breakpoint-tiny-phones) {
+                    font-size: 3.5rem;
+                }
+
+                @media only screen and (min-width: $breakpoint-tiny-phones) and (max-width: $breakpoint-portrait-phones) {
+                    font-size: 4rem;
+                }
             }
             .lead {
                 color: $color-orange;
-                font-size: 1.5rem;
+                font-size: 3rem;
+
+                @media only screen and (max-width: $breakpoint-portrait-phones) {
+                    font-size: 2rem;
+                }
             }
         }
 
