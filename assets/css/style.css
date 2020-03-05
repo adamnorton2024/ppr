@@ -1,12 +1,30 @@
 html body {
-  height: 100vh;
-  background-image: url(../images/office-zen.jpg);
+  height: 80vh;
+  background-image: url(../images/bg_rings.jpg);
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: bottom center;
   background-size: cover;
   padding-top: 0.25em;
   padding-left: 0em;
   padding-right: 0em;
+}
+html body .jumbotron {
+  height: 80vh;
+  background-color: rgba(255, 255, 255, 0);
+  background-image: url(../images/PPR.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: contain;
+}
+html body .jumbotron .display-1 {
+  color: #008fb4;
+}
+html body .jumbotron .lead {
+  color: #ffa600;
+  font-size: 1.5rem;
+}
+html body .section p {
+  color: #3f4561;
 }
 
 /*# sourceMappingURL=style.css.map */
