@@ -28,13 +28,22 @@ html {
         padding-left: 0em;
         padding-right: 0em;
 
+        @media only screen and (min-width: 0px) and (max-width: $breakpoint-landscape-phones) {
+                height: 70vh;
+                }
+
         .jumbotron {
             height: 80vh;
             background-color: rgba(255,255,255,0);
             background-image: url(../images/PPR.png);
             background-repeat: no-repeat;
             background-position: bottom center;
-            background-size: contain;
+            background-size: 85%;
+
+            @media only screen and (min-width: 0px) and (max-width: $breakpoint-landscape-phones) {
+                height: 70vh;
+                }
+
             nav{
                 .navbar-nav{
                     .nav-item{
@@ -52,13 +61,6 @@ html {
                                 text-decoration: none;
                             }
                         }
-                        // a:visited {
-                        //     color: $color-blue-light;
-                        // }
-                        // .nav-link{
-                        //     color: $color-blue-light;
-                            
-                        // }
                     }
                     .active{
                         .nav-link{
@@ -88,6 +90,7 @@ html {
                     font-size: 2rem;
                 }
             }
+            
         }
 
     }

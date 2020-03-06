@@ -8,13 +8,23 @@ html body {
   padding-left: 0em;
   padding-right: 0em;
 }
+@media only screen and (min-width: 0px) and (max-width: 767.98px) {
+  html body {
+    height: 70vh;
+  }
+}
 html body .jumbotron {
   height: 80vh;
   background-color: rgba(255, 255, 255, 0);
   background-image: url(../images/PPR.png);
   background-repeat: no-repeat;
   background-position: bottom center;
-  background-size: contain;
+  background-size: 85%;
+}
+@media only screen and (min-width: 0px) and (max-width: 767.98px) {
+  html body .jumbotron {
+    height: 70vh;
+  }
 }
 html body .jumbotron nav .navbar-nav .nav-item a {
   color: #009fc4;
