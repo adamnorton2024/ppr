@@ -16,8 +16,23 @@ html body .jumbotron {
   background-position: bottom center;
   background-size: contain;
 }
+html body .jumbotron nav .navbar-nav .nav-item a {
+  color: #009fc4;
+  text-decoration: none;
+}
+html body .jumbotron nav .navbar-nav .nav-item a:visited {
+  color: #009fc4;
+  text-decoration: none;
+}
+html body .jumbotron nav .navbar-nav .nav-item a:hover {
+  color: white;
+  text-decoration: none;
+}
+html body .jumbotron nav .navbar-nav .active .nav-link {
+  color: #ffa600 !important;
+}
 html body .jumbotron .display-1 {
-  color: #008fb4;
+  color: #009fc4;
   font-size: 8rem;
 }
 @media only screen and (min-width: 0px) and (max-width: 414px) {
@@ -38,9 +53,6 @@ html body .jumbotron .lead {
   html body .jumbotron .lead {
     font-size: 2rem;
   }
-}
-html body .section p {
-  color: #3f4561;
 }
 
 /*# sourceMappingURL=style.css.map */
