@@ -57,6 +57,11 @@ html body .jumbotron .display-1 {
     font-size: 4rem;
   }
 }
+@media only screen and (min-width: 767.98px) and (max-width: 991.98px) {
+  html body .jumbotron .display-1 {
+    margin-bottom: 0.3em;
+  }
+}
 html body .jumbotron .lead {
   color: #ffa600;
   font-size: 3rem;
@@ -67,15 +72,29 @@ html body .jumbotron .lead {
     font-size: 2rem;
   }
 }
-html body .section .display-4 {
+@media only screen and (min-width: 991.98px) and (max-width: 1199.98px) {
+  html body .jumbotron .lead {
+    font-size: 4rem;
+  }
+}
+html body .display-4 {
   color: #009fc4;
+}
+html body .display-3 {
+  color: #3f4561;
+}
+html body li {
+  list-style: disc outside none;
+  display: list-item;
+  margin-left: 1em;
 }
 html body footer {
   background-image: url(../images/bg_rings.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-top: 0.25em;
+  margin: 0px;
+  padding-top: 2em;
   padding-left: 0em;
   padding-right: 0em;
   background-color: #3f4561;

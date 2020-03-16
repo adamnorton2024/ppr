@@ -83,6 +83,11 @@ html {
                 @media only screen and (min-width: $breakpoint-tiny-phones) and (max-width: $breakpoint-portrait-phones) {
                     font-size: 4rem;
                 }
+
+                @media only screen and (min-width: $breakpoint-landscape-phones) and (max-width: $breakpoint-tablets) {
+                    margin-bottom: .3em;
+                }
+
             }
             .lead {
                 color: $color-orange;
@@ -92,14 +97,30 @@ html {
                 @media only screen and (max-width: $breakpoint-portrait-phones) {
                     font-size: 2rem;
                 }
+
+                @media only screen and (min-width: $breakpoint-tablets) and ( max-width: $breakpoint-desktop) {
+                    font-size: 4rem;
+                }
+
+                
             }
             
         }
 
-        .section{
-            .display-4{
-                color: $color-blue-light;
-            }
+
+        .display-4{
+            color: $color-blue-light;
+        }
+        
+
+       .display-3{
+           color: $color-blue-dark;
+       }
+
+        li {
+            list-style: disc outside none;
+            display: list-item;
+            margin-left: 1em;
         }
 
         footer{
@@ -107,7 +128,8 @@ html {
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
-            padding-top: .25em;
+            margin: 0px;
+            padding-top: 2em;
             padding-left: 0em;
             padding-right: 0em;
             background-color: $color-blue-dark;
