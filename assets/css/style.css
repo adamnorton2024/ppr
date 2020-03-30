@@ -1,30 +1,15 @@
 html body {
-  height: 80vh;
+  background-color: #ffffff;
+  padding-left: 0em;
+  padding-right: 0em;
+}
+html body .jumbotron {
+  background-color: #ffffff;
   background-image: url(../images/bg_rings.jpg);
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
-  padding-top: 0.25em;
-  padding-left: 0em;
-  padding-right: 0em;
-}
-@media only screen and (min-width: 0px) and (max-width: 767.98px) {
-  html body {
-    height: 70vh;
-  }
-}
-html body .jumbotron {
-  height: 80vh;
-  background-color: rgba(255, 255, 255, 0);
-  background-image: url(../images/PPR.png);
-  background-repeat: no-repeat;
-  background-position: bottom center;
-  background-size: 85%;
-}
-@media only screen and (min-width: 0px) and (max-width: 767.98px) {
-  html body .jumbotron {
-    height: 70vh;
-  }
+  padding-bottom: 0px;
 }
 html body .jumbotron nav .navbar-nav .nav-item a {
   color: #009fc4;
@@ -41,41 +26,14 @@ html body .jumbotron nav .navbar-nav .nav-item a:hover {
 html body .jumbotron nav .navbar-nav .active .nav-link {
   color: #ffa600 !important;
 }
+html body .jumbotron #img-think-be {
+  margin-top: 1em;
+}
 html body .jumbotron .display-1 {
-  color: #009fc4;
-  font-size: 8rem;
-  margin-bottom: 1em;
+  color: #3f4561;
 }
-@media only screen and (min-width: 0px) and (max-width: 414px) {
-  html body .jumbotron .display-1 {
-    font-size: 3.5rem;
-    margin-bottom: 0.4em;
-  }
-}
-@media only screen and (min-width: 414px) and (max-width: 575.98px) {
-  html body .jumbotron .display-1 {
-    font-size: 4rem;
-  }
-}
-@media only screen and (min-width: 767.98px) and (max-width: 991.98px) {
-  html body .jumbotron .display-1 {
-    margin-bottom: 0.3em;
-  }
-}
-html body .jumbotron .lead {
-  color: #ffa600;
-  font-size: 3rem;
-  text-align: right;
-}
-@media only screen and (max-width: 575.98px) {
-  html body .jumbotron .lead {
-    font-size: 2rem;
-  }
-}
-@media only screen and (min-width: 991.98px) and (max-width: 1199.98px) {
-  html body .jumbotron .lead {
-    font-size: 4rem;
-  }
+html body section .lead {
+  text-align: justify;
 }
 html body .display-4 {
   color: #009fc4;
@@ -88,7 +46,7 @@ html body li {
   display: list-item;
   margin-left: 1em;
 }
-html body footer {
+html body #footer-page {
   background-image: url(../images/bg_rings.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -100,7 +58,7 @@ html body footer {
   background-color: #3f4561;
   color: white;
 }
-html body footer span {
+html body #footer-page span {
   color: #ffa600;
 }
 
