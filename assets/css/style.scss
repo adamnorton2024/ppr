@@ -66,8 +66,37 @@ html {
 
             .display-1{
                 color: $color-blue-dark;
+
+                @media screen and(max-width: $breakpoint-tiny-phones) {
+                    font-size: 5em;
+                }
             }
             
+        }
+
+        header{
+            margin-bottom: 2em;
+            .bg-header-light{
+                background-color: $color-blue-mid;
+                color: white;
+                h2{
+                    font-size: 3em;
+                    text-align: right;
+
+                    @media screen and (max-width: $breakpoint-landscape-phones) {
+                        text-align: left;
+                    }
+                }
+            }
+
+            .bg-header-dark{
+                background-color: $color-text;
+                color: $color-orange;
+                h2{
+                    background-color: $color-text;
+                    font-size: 3em;
+                }
+            }
         }
 
         section{
@@ -93,7 +122,24 @@ html {
             margin-left: 1em;
         }
 
-        #footer-page{
+        button {
+            color: white !important;
+            background-color: $color-blue-mid !important;
+
+            &:visited{
+                color: white !important;
+                text-decoration: none !important;
+            }
+
+            &:hover{
+                color: $color-blue-mid !important;
+                background-color: $color-orange !important;
+                text-decoration: none !important;
+            }
+            
+        }
+
+        footer{
             background-image: url(../images/bg_rings.jpg);
             background-repeat: no-repeat;
             background-position: center;

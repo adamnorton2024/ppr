@@ -32,6 +32,35 @@ html body .jumbotron #img-think-be {
 html body .jumbotron .display-1 {
   color: #3f4561;
 }
+@media screen and (max-width: 414px) {
+  html body .jumbotron .display-1 {
+    font-size: 5em;
+  }
+}
+html body header {
+  margin-bottom: 2em;
+}
+html body header .bg-header-light {
+  background-color: #3f4561;
+  color: white;
+}
+html body header .bg-header-light h2 {
+  font-size: 3em;
+  text-align: right;
+}
+@media screen and (max-width: 767.98px) {
+  html body header .bg-header-light h2 {
+    text-align: left;
+  }
+}
+html body header .bg-header-dark {
+  background-color: #0d0e13;
+  color: #ffa600;
+}
+html body header .bg-header-dark h2 {
+  background-color: #0d0e13;
+  font-size: 3em;
+}
 html body section .lead {
   text-align: justify;
 }
@@ -46,7 +75,20 @@ html body li {
   display: list-item;
   margin-left: 1em;
 }
-html body #footer-page {
+html body button {
+  color: white !important;
+  background-color: #3f4561 !important;
+}
+html body button:visited {
+  color: white !important;
+  text-decoration: none !important;
+}
+html body button:hover {
+  color: #3f4561 !important;
+  background-color: #ffa600 !important;
+  text-decoration: none !important;
+}
+html body footer {
   background-image: url(../images/bg_rings.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -58,7 +100,7 @@ html body #footer-page {
   background-color: #3f4561;
   color: white;
 }
-html body #footer-page span {
+html body footer span {
   color: #ffa600;
 }
 
