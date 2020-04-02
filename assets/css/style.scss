@@ -6,6 +6,7 @@ $color-blue-dark: #3f4561;
 $color-blue-mid: #3f4561;
 $color-blue-light: #009fc4;
 $color-orange: #ffa600;
+$color-gray: #f7f7f7;
 
 // Variables - Screen Size Breakpoints
 $breakpoint-tiny-phones: 414px;
@@ -74,7 +75,8 @@ html {
             
         }
 
-        header{
+        #services{
+            background-color: $color-gray;
             margin-bottom: 2em;
             .bg-header-light{
                 background-color: $color-blue-mid;
@@ -97,6 +99,32 @@ html {
                     font-size: 3em;
                 }
             }
+
+            .display-4 {
+                font-size: 3em;
+                text-align: center;
+            }
+
+            .menu {
+                background-color: $color-blue-dark;
+                color: $color-background;
+                padding: 3em;
+                border-radius: .25em;
+
+                .option-label{
+                   font-size: 1.5em;
+
+                   i{
+                       font-size: 2em;
+                   }
+                }
+
+                .option-text{
+                    text-align: justify;
+                }
+            }
+
+
         }
 
         section{

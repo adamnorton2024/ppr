@@ -37,29 +37,49 @@ html body .jumbotron .display-1 {
     font-size: 5em;
   }
 }
-html body header {
+html body #services {
+  background-color: #f7f7f7;
   margin-bottom: 2em;
 }
-html body header .bg-header-light {
+html body #services .bg-header-light {
   background-color: #3f4561;
   color: white;
 }
-html body header .bg-header-light h2 {
+html body #services .bg-header-light h2 {
   font-size: 3em;
   text-align: right;
 }
 @media screen and (max-width: 767.98px) {
-  html body header .bg-header-light h2 {
+  html body #services .bg-header-light h2 {
     text-align: left;
   }
 }
-html body header .bg-header-dark {
+html body #services .bg-header-dark {
   background-color: #0d0e13;
   color: #ffa600;
 }
-html body header .bg-header-dark h2 {
+html body #services .bg-header-dark h2 {
   background-color: #0d0e13;
   font-size: 3em;
+}
+html body #services .display-4 {
+  font-size: 3em;
+  text-align: center;
+}
+html body #services .menu {
+  background-color: #3f4561;
+  color: #ffffff;
+  padding: 3em;
+  border-radius: 0.25em;
+}
+html body #services .menu .option-label {
+  font-size: 1.5em;
+}
+html body #services .menu .option-label i {
+  font-size: 2em;
+}
+html body #services .menu .option-text {
+  text-align: justify;
 }
 html body section .lead {
   text-align: justify;
