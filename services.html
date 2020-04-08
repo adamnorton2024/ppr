@@ -35,8 +35,17 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="services.html">Services<span class="sr-only">(current)</span></a>
+                        <li class="nav-item dropdown active">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                Services
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="/services.html">HR Consulting</a>
+                                <a class="dropdown-item" href="/bicultural.html">Bi-Cultural Expertise</a>
+                                <a class="dropdown-item" href="#">Training</a>
+                                <a class="dropdown-item" href="#">Talent Acquisition</a>
+                            </div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="mission.html">Mission & Values</a>
@@ -75,16 +84,6 @@
         </div>
     </div>
 
-    <header>
-        
-        <div class="row p-4 mx-0 d-flex justify-content-around">
-            <div class="col-md-3"><a href="#"><button type="button" class="btn btn-block mt-1">HR Consulting</button></a></div>
-            <div class="col-md-3"><a href="#"><button type="button" class="btn btn-block mt-1">Bi-Cultural Expertise</button></a></div>
-            <div class="col-md-3"><a href="#"><button type="button" class="btn btn-block mt-1">Training</button></a></div>
-            <div class="col-md-3"><a href="#"><button type="button" class="btn btn-block mt-1">Talent Acquisition</button></a></div>
-        </div>
-    </header>
-
     <section id='services'>
         <div class="row mt-5 mx-0">
             <div class="col-lg-6 col-md-6 col-sm-12 bg-header-light">
@@ -95,128 +94,152 @@
             </div>
             <h4 class="display-4 container mt-2">Popular Customizable Menu Options for You</h4>
         </div>
-        <div class="container mt-3">
+        <div class="mt-3">
 
-            <div class="menu row mx-0">
-                <div class="col-lg-4 col-md-12 option-label">
-                    <p><i class="fal fa-clipboard-check"></i></p>
-                    <p>HR Compliance/Productivity</p>
-                    <p>Check-Up</p>
-                </div>
-                <div class="col-lg-8 col-md-12 option-text">
-                    <p>The goal of a check-up, or audit, is to identify what is going well and what areas need improvement within your organization. Our experts will analyze data gathered during our visit to ensure compliance is met and to provide best practice suggestions in order to enhance operational practices, lower liability risk and increase productivty.</p>
-                </div>
-            </div>
-            <div class="menu row mx-0 mt-3">
-                <div class="col-lg-4 col-md-12 option-label">
-                    <p><i class="far fa-usd-square"></i></p>
-                    <p>Payroll Management</p>
-                    <p>and Administration</p>
-                </div>
-                <div class="col-lg-8 col-md-12 option-text">
-                    <p>PPR can work with your current payroll provider and their technology platforms to ensure this important area of your business is properly and most accurately managed. We can also provide recommendations for trustworthy best-in-class providers/technology if needed.</p>
-                    <p>Our services may include administration of on-going payroll, maintenance or any changes, compliance changes/updates, working with your provider to address any questions or issues, and supporting any employee-related questions.</p>
-                </div>
-            </div>
-            <div class="menu row mx-0 mt-3">
-                <div class="col-lg-4 col-md-12 option-label">
-                    <p><i class="fal fa-book-reader"></i></p>
-                    <p>Employee Handbook</p>
-                </div>
-                <div class="col-lg-8 col-md-12 option-text">
-                    <p>PPR will create or update your existing employee handbook as needed to reflect your business philosophy, protect your business from employment risks, accelerate the time needed to assimilate new employees into your workforce, and clearly explain behavioral and conduct expectations. Our experts have the most up-tp-date information from an internal and compliance standpoint and will help you keep up with needed updates.</p>
-                </div>
-            </div>
-            <div class="menu row mx-0 mt-3">
-                <div class="col-lg-4 col-md-12 option-label">
-                    <p><i class="fal fa-file-invoice-dollar"></i></p>
-                    <p>Compensation</p>
-                </div>
-                <div class="col-lg-8 col-md-12 option-text">
-                    <p>Depending on your needs, PPR can review wages and internal equity, as well as provide recommendations on Fair Labor Standards Act compliance. We can administer and track salary plans according to budget and also develop, review, and monitor reward and recognition programs. Our compensation experts have developed best-in-class analysis, plans and reporting systems in an easy to understand way for on-going management.</p>
             
+            <div class="row mx-0">
+    
+                <div class="col-lg-4 col-md-6 menu">
+                        <div class="option-label">
+                        <p><i class="fal fa-clipboard-check"></i></p>
+                        <p>HR Compliance/Productivity</p>
+                        <p>Check-Up</p>
+                        </div>
+                        <div class="option-text">
+                            <p>The goal of a check-up, or audit, is to identify what is going well and what areas need improvement within your
+                                organization. Our experts will analyze data gathered during our visit to ensure compliance is met and to provide
+                                best practice suggestions in order to enhance operational practices, lower liability risk and increase
+                                productivty.</p>
+                        </div>
                 </div>
-            </div>
-            <div class="menu row mx-0 mt-3">
-                <div class="col-lg-4 col-md-12 option-label">
-                    <p><i class="fal fa-laptop-medical"></i></p>
-                    <p>Benefits Management</p>
-                    <p>and Administration</p>
+
+                <div class="col-lg-4 col-md-6 menu">
+                        <div class="option-label">
+                            <p><i class="far fa-usd-square"></i></p>
+                            <p>Payroll Management</p>
+                            <p>and Administration</p>
+                        </div>
+                        <div class="option-text">
+                            <p>PPR can work with your current payroll provider and their technology platforms to ensure this important area of
+                                your business is properly and most accurately managed. We can also provide recommendations for trustworthy
+                                best-in-class providers/technology if needed.</p>
+                            <p>Our services may include administration of on-going payroll, maintenance or any changes, compliance
+                                changes/updates, working with your provider to address any questions or issues, and supporting any
+                                employee-related questions.</p>
+                        </div>
                 </div>
-                <div class="col-lg-8 col-md-12 option-text">
-                    <p>PPR can work with current benefit providers and brokers to ensure all company benefits reflect best practices. We can also provide recommendations for trustworthy providers if needed.</p>
-                    <p>Our services may include administration of new hire paperwork, changes from existing staff, and ensuring that all general benefit questions from employees are answered. Our team will also help during Open Enrollment in the selection and negotiation of renewal options.</p>
+
+                <div class="col-lg-4 col-md-6 menu">
+                    <div class="option-label">
+                        <p><i class="fal fa-book-reader"></i></p>
+                        <p>Employee Handbook</p>
+                    </div>
+                    <div class="option-text">
+                        <p>PPR will create or update your existing employee handbook as needed to reflect your business philosophy, protect your business from employment risks, accelerate the time needed to assimilate new employees into your workforce, and clearly explain behavioral and conduct expectations. Our experts have the most up-tp-date information from an internal and compliance standpoint and will help you keep up with needed updates.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="menu row mx-0 mt-3">
-                <div class="col-lg-4 col-md-12 option-label">
-                    <p><i class="fal fa-user-friends"></i></p>
-                    <p>Employee Relations</p>
+
+                <div class="col-lg-4 col-md-6 menu">
+                    <div class="option-label">
+                        <p><i class="fal fa-file-invoice-dollar"></i></p>
+                        <p>Compensation</p>
+                    </div>
+                    <div class="option-text">
+                        <p>Depending on your needs, PPR can review wages and internal equity, as well as provide recommendations on Fair Labor Standards Act compliance. We can administer and track salary plans according to budget and also develop, review, and monitor reward and recognition programs. Our compensation experts have developed best-in-class analysis, plans and reporting systems in an easy to understand way for on-going management.</p>
+                    </div>
                 </div>
-                <div class="col-lg-8 col-md-12 option-text">
-                    <p>Your designated managers and employees will have access to our certified human resources professionals (PHR and SPHR) to assist with questions or issues and concerns. In order to best prevent liability, to ensure compliance with employment regulations and to understand potential risks of actions, we recommend a visit or a call to help effectively deal with
-                    any and all employee-related needs.</p>
-                    
+
+                <div class="col-lg-4 col-md-6 menu">
+                    <div class="option-label">
+                        <p><i class="fal fa-laptop-medical"></i></p>
+                        <p>Benefits Management</p>
+                        <p>and Administration</p>
+                    </div>
+                    <div class="option-text">
+                        <p>PPR can work with current benefit providers and brokers to ensure all company benefits reflect best practices. We can also provide recommendations for trustworthy providers if needed.</p>
+                        <p>Our services may include administration of new hire paperwork, changes from existing staff, and ensuring that all general benefit questions from employees are answered. Our team will also help during Open Enrollment in the selection and negotiation of renewal options.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="menu row mx-0 mt-3">
-                <div class="col-lg-4 col-md-12 option-label">
-                    <p><i class="fal fa-tasks"></i></p>
-                    <p>Performance Management</p>
-                    <p>System</p>
+
+                <div class="col-lg-4 col-md-6 menu">
+                    <div class="option-label">
+                        <p><i class="fal fa-user-friends"></i></p>
+                        <p>Employee Relations</p>
+                    </div>
+                    <div class="option-text">
+                        <p>Your designated managers and employees will have access to our certified human resources professionals (PHR and SPHR) to assist with questions or issues and concerns. In order to best prevent liability, to ensure compliance with employment regulations and to understand potential risks of actions, we recommend a visit or a call to help effectively deal with any and all employee-related needs.</p>
+                    </div>
                 </div>
-                <div class="col-lg-8 col-md-12 option-text">
-                    <p>PPR will design or revise your performance appraisal processes with your team's culture and the latest state-of-the-art trends in mind. We will continue monitoring and managing this process to be consistent with your key performance indicators and will provide training and support to all members of management in this critical area.</p>
+
+                <div class="col-lg-4 col-md-6 menu">
+                    <div class="option-label">
+                        <p><i class="fal fa-tasks"></i></p>
+                        <p>Performance Management</p>
+                    </div>
+                    <div class="option-text">
+                        <p>PPR will design or revise your performance appraisal processes with your team's culture and the latest state-of-the-art trends in mind. We will continue monitoring and managing this process to be consistent with your key performance indicators and will provide training and support to all members of management in this critical area.
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div class="menu row mx-0 mt-3">
-                <div class="col-lg-4 col-md-12 option-label">
-                    <p><i class="fal fa-comments"></i></p>
-                    <p>Employee Communication</p>
-                    <p>Plans</p>
+
+                <div class="col-lg-4 col-md-6 menu">
+                    <div class="option-label">
+                        <p><i class="fal fa-comments"></i></p>
+                        <p>Employee Communication</p>
+                    </div>
+                    <div class="option-text">
+                        <p>We can support your organization to develop and implement ongoing advice with effective employee communications. Together we can implement a plan that better fits your environment and your goals. Whether it is addressing difficult conversations or how to motivate and promote engagement, PPR can provide you with fact-based data and language to help you succeed.</p>
+                    </div>
                 </div>
-                <div class="col-lg-8 col-md-12 option-text">
-                    <p>We can support your organization to develop and implement ongoing advice with effective employee communications. Together we can implement a plan that better fits your environment and your goals. Whether it is addressing difficult conversations or how to motivate and promote engagement, PPR can provide you with fact-based data and language to help you succeed.</p>
+
+                <div class="col-lg-4 col-md-6 menu">
+                    <div class="option-label">
+                        <p><i class="fal fa-gavel"></i></p>
+                        <p>Legal Updates</p>
+                    </div>
+                    <div class="option-text">
+                        <p>Maneuvering through the ever-changing legal updates is one of the main areas that we support our clients. Whether it is a better understanding of how areas of compliance may impact your organization, or staying on top of employment laws, our experts can help ensure that compliance is met while maintaining the best approach for your particular environment.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="menu row mx-0 mt-3">
-                <div class="col-lg-4 col-md-12 option-label">
-                    <p><i class="fal fa-gavel"></i></p>
-                    <p>Legal Updates</p>
+
+                <div class="col-lg-4 col-md-6 menu">
+                    <div class="option-label">
+                        <p><i class="fal fa-user-tie"></i></p>
+                        <p>Termination Process</p>
+                    </div>
+                    <div class="option-text">
+                        <p>​PPR will design employment termination processes and checklists to protect your property and properly exit departing employees; conduct exit interviews, and assist in turnover analysis.</p>
+                    </div>
                 </div>
-                <div class="col-lg-8 col-md-12 option-text">
-                    <p>Maneuvering through the ever-changing legal updates is one of the main areas that we support our clients. Whether it is a better understanding of how areas of compliance may impact your organization, or staying on top of employment laws, our experts can help ensure that compliance is met while maintaining the best approach for your particular environment.</p>
+
+                <div class="col-lg-4 col-md-6 menu">
+                    <div class="option-label">
+                        <p><i class="fal fa-phone-office"></i></p>
+                        <p>HR Helpline</p>
+                    </div>
+                    <div class="option-text">
+                        <p>As your human resources experts and trusted advisors, we can support high-level decision making to establish strategic initiatives, but also partner with your supervisors to address their day-to-day questions and challenges. PPR also becomes a resource to proactively address employee issues. As outside experts, our credibility, knowledge, and fairness are viewed positively by employees and are very effective in mitigating company employment liability
+                            and risk. A dedicated Consultant assigned to your organization will be the main point of contact. As need arises, additional specialists may also be introduced for specific support, giving you access to a full team of experts without additional cost.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="menu row mx-0 mt-3">
-                <div class="col-lg-4 col-md-12 option-label">
-                    <p><i class="fal fa-user-tie"></i></p>
-                    <p>Termination Process</p>
-                </div>
-                <div class="col-lg-8 col-md-12 option-text">
-                    <p>​PPR will design employment termination processes and checklists to protect your property and properly exit departing employees; conduct exit interviews, and assist in turnover analysis.</p>
-                </div>
-            </div>
-            <div class="menu row mx-0 mt-3">
-                <div class="col-lg-4 col-md-12 option-label">
-                    <p><i class="fal fa-phone-office"></i></p>
-                    <p>HR Helpline</p>
-                </div>
-                <div class="col-lg-8 col-md-12 option-text">
-                    <p>As your human resources experts and trusted advisors, we can support high-level decision making to establish strategic initiatives, but also partner with your supervisors to address their day-to-day questions and challenges. PPR also becomes a resource to proactively address employee issues. As outside experts, our credibility, knowledge, and fairness are viewed positively by employees and are very effective in mitigating company employment liability and risk. A
-                    dedicated Consultant assigned to your organization will be the main point of contact. As need arises, additional specialists may also be introduced for specific support, giving you access to a full team of experts without additional cost.</p>
-                </div>
+
             </div>
         </div>
     </section>
 
 
-
-
-
-
-
-
+    <section>
+    
+        <div class="row p-4 mx-0 d-flex justify-content-around">
+            <div class="col-md-3"><a href="/services.html"><button type="button" class="btn btn-block mt-1">HR Consulting</button></a>
+            </div>
+            <div class="col-md-3"><a href="/bicultural.html"><button type="button" class="btn btn-block mt-1">Bi-Cultural
+                        Expertise</button></a></div>
+            <div class="col-md-3"><a href="#"><button type="button" class="btn btn-block mt-1">Training</button></a></div>
+            <div class="col-md-3"><a href="#"><button type="button" class="btn btn-block mt-1">Talent
+                        Acquisition</button></a></div>
+        </div>
+    </section>
 
 
 
