@@ -279,6 +279,59 @@ html {
             }
         }
 
+        #talent-header{
+            background-image: url('../images/train-banner2.jpg');
+            background-repeat: no-repeat;
+            background-position: bottom center;
+            background-size: cover;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            .text-box{
+                background-color: rgba(63,69,97,0.75);
+                border-radius: .25em;
+                padding: 2em;
+                .display-4{
+                    color: $color-orange;
+                    margin-bottom:.5em;
+
+                    @media only screen and (min-width: $breakpoint-portrait-phones) and (max-width: $breakpoint-landscape-phones) {
+                        font-size: 2em;
+                    }
+
+                    @media only screen and (max-width: $breakpoint-portrait-phones) {
+                        font-size: 1.75em;
+                    }
+                }
+
+                .sub-title{
+                    color: $color-orange;
+                    font-size: 2em;
+                    margin-top: 1em;
+                }
+
+                p{
+                    color: white;
+                }
+
+            }
+            .description{
+                color: white;
+                // text-align: justify;
+                text-shadow: 1px 1px black;
+                .lead{
+                    @media only screen and (min-width: $breakpoint-portrait-phones) and (max-width:                         $breakpoint-landscape-phones) {
+                    font-size: 1em;
+                    }
+
+                    @media only screen and (max-width: $breakpoint-portrait-phones) {
+                    font-size: 1em;
+                    }
+                }
+
+                
+            }
+        }
+
         section{
             .lead{
                 // text-align: justify;
@@ -308,6 +361,12 @@ html {
                     @media only screen and (max-width: $breakpoint-portrait-phones) {
                     font-size: 1em;
                     }
+                }
+
+                .sub-title{
+                    color: $color-orange;
+                    font-size: 2em;
+                    margin-top: 1em;
                 }
             }
             #img-worker{
