@@ -214,7 +214,7 @@ html body #training-header .description {
   }
 }
 html body #talent-header {
-  background-image: url("../images/train-banner2.jpg");
+  background-image: url("../images/talent-banner.jpg");
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
@@ -327,6 +327,24 @@ html body .banner #img-coaching {
   background-image: url("../images/train-coaching.jpg");
   background-repeat: no-repeat;
   background-position: top right;
+  background-size: cover;
+}
+html body .banner #img-find {
+  background-image: url("../images/talent-find-team-member.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+html body .banner #img-orientation {
+  background-image: url("../images/talent-new-hire.jpg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: cover;
+}
+html body .banner #img-background-check {
+  background-image: url("../images/talent-background-check.jpg");
+  background-repeat: no-repeat;
+  background-position: center left;
   background-size: cover;
 }
 html body #hisp-owned {
