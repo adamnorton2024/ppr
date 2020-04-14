@@ -262,6 +262,55 @@ html body #talent-header .description {
     font-size: 1em;
   }
 }
+html body #team-header {
+  background-image: url("../images/team/team.jpg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: cover;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+html body #team-header .text-box {
+  background-color: rgba(63, 69, 97, 0.75);
+  border-radius: 0.25em;
+  padding: 2em;
+}
+html body #team-header .text-box .display-4 {
+  color: #ffa600;
+  margin-bottom: 0.5em;
+}
+@media only screen and (min-width: 575.98px) and (max-width: 768.98px) {
+  html body #team-header .text-box .display-4 {
+    font-size: 2em;
+  }
+}
+@media only screen and (max-width: 575.98px) {
+  html body #team-header .text-box .display-4 {
+    font-size: 1.75em;
+  }
+}
+html body #team-header .text-box .sub-title {
+  color: #ffa600;
+  font-size: 2em;
+  margin-top: 1em;
+}
+html body #team-header .text-box p {
+  color: white;
+}
+html body #team-header .description {
+  color: white;
+  text-shadow: 1px 1px black;
+}
+@media only screen and (min-width: 575.98px) and (max-width: 768.98px) {
+  html body #team-header .description .lead {
+    font-size: 1em;
+  }
+}
+@media only screen and (max-width: 575.98px) {
+  html body #team-header .description .lead {
+    font-size: 1em;
+  }
+}
 html body .banner .text-box {
   padding: 1em;
 }
@@ -285,6 +334,19 @@ html body .banner .text-box .display-4 {
 }
 @media only screen and (max-width: 575.98px) {
   html body .banner .text-box .lead {
+    font-size: 1em;
+  }
+}
+html body .banner .text-box .strengths {
+  color: #009fc4;
+}
+@media only screen and (min-width: 575.98px) and (max-width: 768.98px) {
+  html body .banner .text-box .strengths {
+    font-size: 1em;
+  }
+}
+@media only screen and (max-width: 575.98px) {
+  html body .banner .text-box .strengths {
     font-size: 1em;
   }
 }
@@ -346,6 +408,14 @@ html body .banner #img-background-check {
   background-repeat: no-repeat;
   background-position: center left;
   background-size: cover;
+}
+html body .banner .employee {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 50%;
+  border: 3px solid #ffa600;
+  margin: 2em;
 }
 html body #hisp-owned {
   background-color: #f4f4f4;
