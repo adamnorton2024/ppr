@@ -662,5 +662,13 @@ html body footer .fab {
   margin-left: 0.15em;
   margin-right: 0.15em;
 }
+html input.button {
+  background-color: #ffa600 !important;
+  color: black !important;
+}
+html input.button:hover {
+  background: #009fc4 !important;
+  color: white !important;
+}
 
 /*# sourceMappingURL=style.css.map */

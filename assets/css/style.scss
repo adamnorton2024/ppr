@@ -766,4 +766,14 @@ html {
 
 
     }
+
+    input.button{
+        background-color: $color-orange !important;
+        color: black !important;
+
+        &:hover{
+            background: $color-blue-light !important;
+            color: white !important;
+        }
+    }
 }
