@@ -186,7 +186,7 @@ html {
         #main-header{
             background-image: url('../images/office-zen.jpg');
             background-repeat: no-repeat;
-            background-position: center center;
+            background-position: top center;
             background-size: cover;
             margin-top: 0px;
             margin-bottom: 0px;
@@ -383,6 +383,59 @@ html {
             }
         }
 
+        #mission-header{
+            background-image: url('../images/mission-banner.jpg');
+            background-repeat: no-repeat;
+            background-position: center left;
+            background-size: cover;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            .text-box{
+                background-color: rgba(63,69,97,0.75);
+                border-radius: .25em;
+                padding: 4em;
+                .display-4{
+                    color: $color-orange;
+                    margin-bottom:.5em;
+
+                    @media only screen and (min-width: $breakpoint-portrait-phones) and (max-width: $breakpoint-landscape-phones) {
+                        font-size: 2em;
+                    }
+
+                    @media only screen and (max-width: $breakpoint-portrait-phones) {
+                        font-size: 1.75em;
+                    }
+                }
+
+                .sub-title{
+                    color: $color-orange;
+                    font-size: 2em;
+                    margin-top: 1em;
+                }
+
+                p{
+                    color: white;
+                }
+
+            }
+            .description{
+                color: white;
+                // text-align: justify;
+                text-shadow: 1px 1px black;
+                .lead{
+                    @media only screen and (min-width: $breakpoint-portrait-phones) and (max-width:                         $breakpoint-landscape-phones) {
+                    font-size: 1em;
+                    }
+
+                    @media only screen and (max-width: $breakpoint-portrait-phones) {
+                    font-size: 1em;
+                    }
+                }
+
+                
+            }
+        }
+
         #team-header{
             background-image: url('../images/team/team.jpg');
             background-repeat: no-repeat;
@@ -537,6 +590,10 @@ html {
                             text-decoration: none;
                         }
                     }
+                
+                #address{
+                    color: $color-orange;
+                }
 
             }
             .description{
@@ -684,6 +741,24 @@ html {
             color: white;
             span{
                 color: $color-orange;
+            }
+            a{
+                color: white;
+
+                &:visited{
+                    color: white;
+                    text-decoration: none;
+                }
+
+                &:hover{
+                    color: $color-orange;
+                    text-decoration: none;
+                }
+            }
+            .fab {
+                font-size: 2em;
+                margin-left: .15em;
+                margin-right: .15em;
             }
             
         }
