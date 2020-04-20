@@ -458,6 +458,70 @@ html body #career-header .description {
     font-size: 1em;
   }
 }
+html body #about-header {
+  background-image: url("../images/about-banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: cover;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+html body #about-header .text-box {
+  background-color: rgba(63, 69, 97, 0.75);
+  border-radius: 0.25em;
+  padding: 4em;
+}
+html body #about-header .text-box .display-4 {
+  color: #ffa600;
+  margin-bottom: 0.5em;
+}
+@media only screen and (min-width: 575.98px) and (max-width: 768.98px) {
+  html body #about-header .text-box .display-4 {
+    font-size: 2em;
+  }
+}
+@media only screen and (max-width: 575.98px) {
+  html body #about-header .text-box .display-4 {
+    font-size: 1.75em;
+  }
+}
+html body #about-header .text-box .sub-title {
+  color: #ffa600;
+  font-size: 2em;
+  margin-top: 1em;
+}
+html body #about-header .text-box p {
+  color: white;
+}
+html body #about-header .text-box a {
+  color: #ffa600;
+  text-decoration: none;
+}
+html body #about-header .text-box a:visited {
+  color: #ffa600;
+  text-decoration: none;
+}
+html body #about-header .text-box a:hover {
+  color: white;
+  text-decoration: none;
+}
+html body #about-header .text-box #address {
+  color: #ffa600;
+}
+html body #about-header .description {
+  color: white;
+  text-shadow: 1px 1px black;
+}
+@media only screen and (min-width: 575.98px) and (max-width: 768.98px) {
+  html body #about-header .description .lead {
+    font-size: 1em;
+  }
+}
+@media only screen and (max-width: 575.98px) {
+  html body #about-header .description .lead {
+    font-size: 1em;
+  }
+}
 html body #contact-header {
   background-image: url("../images/contact-banner.jpg");
   background-repeat: no-repeat;

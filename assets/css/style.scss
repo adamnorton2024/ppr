@@ -542,6 +542,76 @@ html {
             }
         }
 
+        #about-header{
+            background-image: url('../images/about-banner.jpg');
+            background-repeat: no-repeat;
+            background-position: center right;
+            background-size: cover;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            .text-box{
+                background-color: rgba(63,69,97,0.75);
+                border-radius: .25em;
+                padding: 4em;
+                .display-4{
+                    color: $color-orange;
+                    margin-bottom:.5em;
+
+                    @media only screen and (min-width: $breakpoint-portrait-phones) and (max-width: $breakpoint-landscape-phones) {
+                        font-size: 2em;
+                    }
+
+                    @media only screen and (max-width: $breakpoint-portrait-phones) {
+                        font-size: 1.75em;
+                    }
+                }
+
+                .sub-title{
+                    color: $color-orange;
+                    font-size: 2em;
+                    margin-top: 1em;
+                }
+
+                p{
+                    color: white;
+                }
+
+                a{
+                    color: $color-orange;
+                    text-decoration: none;
+
+                        &:visited{
+                            color: $color-orange;
+                            text-decoration: none;
+                        }
+
+                        &:hover{
+                            color: white;
+                            text-decoration: none;
+                        }
+                    }
+                
+                #address{
+                    color: $color-orange;
+                }
+
+            }
+            .description{
+                color: white;
+                // text-align: justify;
+                text-shadow: 1px 1px black;
+                .lead{
+                    @media only screen and (min-width: $breakpoint-portrait-phones) and (max-width:                         $breakpoint-landscape-phones) {
+                    font-size: 1em;
+                    }
+
+                    @media only screen and (max-width: $breakpoint-portrait-phones) {
+                    font-size: 1em;
+                    }
+                }                
+            }
+        }
+
         #contact-header{
             background-image: url('../images/contact-banner.jpg');
             background-repeat: no-repeat;
