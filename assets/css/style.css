@@ -726,6 +726,9 @@ html body footer .fab {
   margin-left: 0.15em;
   margin-right: 0.15em;
 }
+html body footer #current-year {
+  color: white;
+}
 html input.button {
   background-color: #ffa600 !important;
   color: black !important;
