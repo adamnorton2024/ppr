@@ -77,52 +77,6 @@ html body button:hover {
   background-color: #ffa600 !important;
   text-decoration: none !important;
 }
-html body #services {
-  background-color: #f4f4f4;
-  margin-bottom: 2em;
-}
-html body #services .bg-header-light {
-  background-color: #3f4561;
-  color: white;
-}
-html body #services .bg-header-light h2 {
-  font-size: 3em;
-  text-align: right;
-}
-@media screen and (max-width: 768.98px) {
-  html body #services .bg-header-light h2 {
-    text-align: left;
-  }
-}
-html body #services .bg-header-dark {
-  background-color: #0d0e13;
-  color: #ffa600;
-}
-html body #services .bg-header-dark h2 {
-  background-color: #0d0e13;
-  font-size: 3em;
-}
-html body #services .display-4 {
-  font-size: 3em;
-  text-align: center;
-}
-html body #services .menu {
-  background-color: #3f4561;
-  color: #ffffff;
-  padding: 3em;
-  border: #f4f4f4 solid 0.1em;
-  border-radius: 0.25em;
-}
-html body #services .menu .option-label {
-  font-size: 1.25em;
-}
-html body #services .menu .option-label i {
-  font-size: 1.75em;
-}
-html body #services .menu .option-text {
-  text-align: justify;
-  font-size: 0.8em;
-}
 html body #main-header {
   background-image: url("../images/office-zen.jpg");
   background-repeat: no-repeat;
@@ -172,6 +126,56 @@ html body #main-header .description {
     font-size: 1em;
   }
 }
+html body #services-header {
+  background-image: url("../images/services-banner.jpg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: cover;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+html body #services-header .text-box {
+  background-color: rgba(63, 69, 97, 0.75);
+  border-radius: 0.25em;
+  padding: 4em;
+  color: white;
+}
+html body #services-header .text-box .display-4 {
+  color: #ffa600;
+  margin-bottom: 0.5em;
+}
+@media only screen and (min-width: 575.98px) and (max-width: 768.98px) {
+  html body #services-header .text-box .display-4 {
+    font-size: 2em;
+  }
+}
+@media only screen and (max-width: 575.98px) {
+  html body #services-header .text-box .display-4 {
+    font-size: 1.75em;
+  }
+}
+html body #services-header .text-box .sub-title {
+  color: #ffa600;
+  font-size: 2em;
+  margin-top: 1em;
+}
+html body #services-header .text-box li {
+  color: white;
+}
+html body #services-header .description {
+  color: white;
+  text-shadow: 1px 1px black;
+}
+@media only screen and (min-width: 575.98px) and (max-width: 768.98px) {
+  html body #services-header .description .lead {
+    font-size: 1em;
+  }
+}
+@media only screen and (max-width: 575.98px) {
+  html body #services-header .description .lead {
+    font-size: 1em;
+  }
+}
 html body #bi-header {
   background-image: url("../images/bi-cultural-talent.jpg");
   background-repeat: no-repeat;
@@ -212,6 +216,11 @@ html body #bi-header .description {
   html body #bi-header .description .lead {
     font-size: 1em;
   }
+}
+html body #bi-header .description .sub-title {
+  color: #ffa600;
+  font-size: 2em;
+  margin-top: 1em;
 }
 html body #training-header {
   background-image: url("../images/train-banner2.jpg");
@@ -682,6 +691,48 @@ html body .banner #img-background-check {
   background-image: url("../images/talent-background-check.jpg");
   background-repeat: no-repeat;
   background-position: center left;
+  background-size: cover;
+}
+html body .banner #img-culture {
+  background-image: url("../images/services_culture.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+}
+html body .banner #img-performance {
+  background-image: url("../images/services_performance.jpg");
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: cover;
+}
+html body .banner #img-policy {
+  background-image: url("../images/services_policy.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+html body .banner #img-risk {
+  background-image: url("../images/services_risk.jpg");
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: cover;
+}
+html body .banner #img-strategy {
+  background-image: url("../images/services_strategy.jpg");
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: cover;
+}
+html body .banner #img-rewards {
+  background-image: url("../images/services_rewards.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+html body .banner #img-workforce {
+  background-image: url("../images/services_workforce.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
   background-size: cover;
 }
 html body .banner .employee {

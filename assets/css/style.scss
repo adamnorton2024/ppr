@@ -129,59 +129,59 @@ html {
             
         }
 
-        #services{
-            background-color: $color-gray;
-            margin-bottom: 2em;
-            .bg-header-light{
-                background-color: $color-blue-mid;
-                color: white;
-                h2{
-                    font-size: 3em;
-                    text-align: right;
+        // #services{
+        //     background-color: $color-gray;
+        //     margin-bottom: 2em;
+        //     .bg-header-light{
+        //         background-color: $color-blue-mid;
+        //         color: white;
+        //         h2{
+        //             font-size: 3em;
+        //             text-align: right;
 
-                    @media screen and (max-width: $breakpoint-landscape-phones) {
-                        text-align: left;
-                    }
-                }
-            }
+        //             @media screen and (max-width: $breakpoint-landscape-phones) {
+        //                 text-align: left;
+        //             }
+        //         }
+        //     }
 
-            .bg-header-dark{
-                background-color: $color-text;
-                color: $color-orange;
-                h2{
-                    background-color: $color-text;
-                    font-size: 3em;
-                }
-            }
+        //     .bg-header-dark{
+        //         background-color: $color-text;
+        //         color: $color-orange;
+        //         h2{
+        //             background-color: $color-text;
+        //             font-size: 3em;
+        //         }
+        //     }
 
-            .display-4 {
-                font-size: 3em;
-                text-align: center;
-            }
+        //     .display-4 {
+        //         font-size: 3em;
+        //         text-align: center;
+        //     }
 
-            .menu {
-                background-color: $color-blue-dark;
-                color: $color-background;
-                padding: 3em;
-                border: $color-gray solid .1em;
-                border-radius: .25em;
+        //     .menu {
+        //         background-color: $color-blue-dark;
+        //         color: $color-background;
+        //         padding: 3em;
+        //         border: $color-gray solid .1em;
+        //         border-radius: .25em;
 
-                .option-label{
-                   font-size: 1.25em;
+        //         .option-label{
+        //            font-size: 1.25em;
 
-                   i{
-                       font-size: 1.75em;
-                   }
-                }
+        //            i{
+        //                font-size: 1.75em;
+        //            }
+        //         }
 
-                .option-text{
-                    text-align: justify;
-                    font-size: .8em;
-                }
-            }
+        //         .option-text{
+        //             text-align: justify;
+        //             font-size: .8em;
+        //         }
+        //     }
 
 
-        }
+        // }
 
         #main-header{
             background-image: url('../images/office-zen.jpg');
@@ -194,6 +194,59 @@ html {
                 background-color: rgba(63,69,97,0.75);
                 border-radius: .25em;
                 padding: 4em;
+                .display-4{
+                    color: $color-orange;
+                    margin-bottom:.5em;
+
+                    @media only screen and (min-width: $breakpoint-portrait-phones) and (max-width: $breakpoint-landscape-phones) {
+                        font-size: 2em;
+                    }
+
+                    @media only screen and (max-width: $breakpoint-portrait-phones) {
+                        font-size: 1.75em;
+                    }
+                }
+
+                .sub-title{
+                    color: $color-orange;
+                    font-size: 2em;
+                    margin-top: 1em;
+                }
+
+                li{
+                    color: white;
+                }
+
+            }
+            .description{
+                color: white;
+                text-shadow: 1px 1px black;
+                .lead{
+                    @media only screen and (min-width: $breakpoint-portrait-phones) and (max-width:                         $breakpoint-landscape-phones) {
+                    font-size: 1em;
+                    }
+
+                    @media only screen and (max-width: $breakpoint-portrait-phones) {
+                    font-size: 1em;
+                    }
+                }
+
+                
+            }
+        }
+
+        #services-header{
+            background-image: url('../images/services-banner.jpg');
+            background-repeat: no-repeat;
+            background-position: top right;
+            background-size: cover;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            .text-box{
+                background-color: rgba(63,69,97,0.75);
+                border-radius: .25em;
+                padding: 4em;
+                color: white;
                 .display-4{
                     color: $color-orange;
                     margin-bottom:.5em;
@@ -274,6 +327,11 @@ html {
                     }
                 }
 
+                .sub-title{
+                    color: $color-orange;
+                    font-size: 2em;
+                    margin-top: 1em;
+                }
                 
             }
         }
@@ -779,6 +837,48 @@ html {
                 background-image: url('../images/talent-background-check.jpg');
                 background-repeat: no-repeat;
                 background-position: center left;
+                background-size: cover;
+            }
+            #img-culture{
+                background-image: url('../images/services_culture.jpg');
+                background-repeat: no-repeat;
+                background-position: center bottom;
+                background-size: cover;
+            }
+            #img-performance{
+                background-image: url('../images/services_performance.jpg');
+                background-repeat: no-repeat;
+                background-position: center right;
+                background-size: cover;
+            }
+            #img-policy{
+                background-image: url('../images/services_policy.jpg');
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: cover;
+            }
+            #img-risk{
+                background-image: url('../images/services_risk.jpg');
+                background-repeat: no-repeat;
+                background-position: center right;
+                background-size: cover;
+            }
+            #img-strategy{
+                background-image: url('../images/services_strategy.jpg');
+                background-repeat: no-repeat;
+                background-position: center right;
+                background-size: cover;
+            }
+            #img-rewards{
+                background-image: url('../images/services_rewards.jpg');
+                background-repeat: no-repeat;
+                background-position: center top;
+                background-size: cover;
+            }
+            #img-workforce{
+                background-image: url('../images/services_workforce.jpg');
+                background-repeat: no-repeat;
+                background-position: center bottom;
                 background-size: cover;
             }
             .employee{
