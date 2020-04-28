@@ -129,60 +129,6 @@ html {
             
         }
 
-        // #services{
-        //     background-color: $color-gray;
-        //     margin-bottom: 2em;
-        //     .bg-header-light{
-        //         background-color: $color-blue-mid;
-        //         color: white;
-        //         h2{
-        //             font-size: 3em;
-        //             text-align: right;
-
-        //             @media screen and (max-width: $breakpoint-landscape-phones) {
-        //                 text-align: left;
-        //             }
-        //         }
-        //     }
-
-        //     .bg-header-dark{
-        //         background-color: $color-text;
-        //         color: $color-orange;
-        //         h2{
-        //             background-color: $color-text;
-        //             font-size: 3em;
-        //         }
-        //     }
-
-        //     .display-4 {
-        //         font-size: 3em;
-        //         text-align: center;
-        //     }
-
-        //     .menu {
-        //         background-color: $color-blue-dark;
-        //         color: $color-background;
-        //         padding: 3em;
-        //         border: $color-gray solid .1em;
-        //         border-radius: .25em;
-
-        //         .option-label{
-        //            font-size: 1.25em;
-
-        //            i{
-        //                font-size: 1.75em;
-        //            }
-        //         }
-
-        //         .option-text{
-        //             text-align: justify;
-        //             font-size: .8em;
-        //         }
-        //     }
-
-
-        // }
-
         #main-header{
             background-image: url('../images/office-zen.jpg');
             background-repeat: no-repeat;
@@ -220,7 +166,7 @@ html {
             }
             .description{
                 color: white;
-                text-shadow: 1px 1px black;
+                //text-shadow: 1px 1px black;
                 .lead{
                     @media only screen and (min-width: $breakpoint-portrait-phones) and (max-width:                         $breakpoint-landscape-phones) {
                     font-size: 1em;
@@ -273,7 +219,7 @@ html {
             }
             .description{
                 color: white;
-                text-shadow: 1px 1px black;
+                //text-shadow: 1px 1px black;
                 .lead{
                     @media only screen and (min-width: $breakpoint-portrait-phones) and (max-width:                         $breakpoint-landscape-phones) {
                     font-size: 1em;
@@ -737,6 +683,31 @@ html {
                     font-size: 1em;
                     }
                 }                
+            }
+        }
+
+        .reviews{
+            background-color: $color-gray;
+            .box{
+                background-color: rgba(63,69,97,.75);
+                border-radius: .5em;
+                padding: 2.5em; 
+                border: .25em solid $color-gray;
+                margin-bottom: 1em;
+                .logo{
+                    text-align: center;
+                    margin-bottom: 2em;
+                    img{
+                        height: 7em;
+                    }
+                }
+                p{
+                    color: white;
+                    font-size: .8em;
+                }
+                .client{
+                    font-style: italic;
+                }
             }
         }
 

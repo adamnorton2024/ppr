@@ -114,7 +114,6 @@ html body #main-header .text-box li {
 }
 html body #main-header .description {
   color: white;
-  text-shadow: 1px 1px black;
 }
 @media only screen and (min-width: 575.98px) and (max-width: 768.98px) {
   html body #main-header .description .lead {
@@ -164,7 +163,6 @@ html body #services-header .text-box li {
 }
 html body #services-header .description {
   color: white;
-  text-shadow: 1px 1px black;
 }
 @media only screen and (min-width: 575.98px) and (max-width: 768.98px) {
   html body #services-header .description .lead {
@@ -594,6 +592,30 @@ html body #contact-header .description {
   html body #contact-header .description .lead {
     font-size: 1em;
   }
+}
+html body .reviews {
+  background-color: #f4f4f4;
+}
+html body .reviews .box {
+  background-color: rgba(63, 69, 97, 0.75);
+  border-radius: 0.5em;
+  padding: 2.5em;
+  border: 0.25em solid #f4f4f4;
+  margin-bottom: 1em;
+}
+html body .reviews .box .logo {
+  text-align: center;
+  margin-bottom: 2em;
+}
+html body .reviews .box .logo img {
+  height: 7em;
+}
+html body .reviews .box p {
+  color: white;
+  font-size: 0.8em;
+}
+html body .reviews .box .client {
+  font-style: italic;
 }
 html body .banner .text-box {
   padding: 1em;
