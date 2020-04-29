@@ -596,10 +596,14 @@ html body #contact-header .description {
 html body .reviews {
   background-color: #f4f4f4;
 }
+html body .reviews h1 {
+  font-size: 2em;
+  text-align: center;
+}
 html body .reviews .box {
   background-color: rgba(63, 69, 97, 0.75);
   border-radius: 0.5em;
-  padding: 2.5em;
+  padding: 3em;
   border: 0.25em solid #f4f4f4;
   margin-bottom: 1em;
 }
@@ -608,7 +612,7 @@ html body .reviews .box .logo {
   margin-bottom: 2em;
 }
 html body .reviews .box .logo img {
-  height: 7em;
+  max-height: 7em;
 }
 html body .reviews .box p {
   color: white;
@@ -616,6 +620,14 @@ html body .reviews .box p {
 }
 html body .reviews .box .client {
   font-style: italic;
+}
+html body #client-logos {
+  text-align: center;
+}
+html body #client-logos img {
+  padding: 1.25em;
+  max-height: 5em;
+  align-self: center;
 }
 html body .banner .text-box {
   padding: 1em;

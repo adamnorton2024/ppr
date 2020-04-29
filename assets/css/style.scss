@@ -687,18 +687,22 @@ html {
         }
 
         .reviews{
+            h1{
+                font-size: 2em;
+                text-align: center;
+            }
             background-color: $color-gray;
             .box{
-                background-color: rgba(63,69,97,.75);
+                background-color: rgba(63,69,97,0.75);
                 border-radius: .5em;
-                padding: 2.5em; 
+                padding: 3em; 
                 border: .25em solid $color-gray;
                 margin-bottom: 1em;
                 .logo{
                     text-align: center;
                     margin-bottom: 2em;
                     img{
-                        height: 7em;
+                        max-height: 7em;
                     }
                 }
                 p{
@@ -708,6 +712,18 @@ html {
                 .client{
                     font-style: italic;
                 }
+            }
+        }
+
+        #client-logos{
+            //display: flex;
+            text-align: center;
+            //justify-content: center;
+            //flex-wrap: wrap;
+            img{
+                padding: 1.25em;
+                max-height: 5em;
+                align-self: center;
             }
         }
 
