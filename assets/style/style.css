@@ -760,8 +760,8 @@ html body .banner #img-strategy {
 html body .banner #img-rewards {
   background-image: url("../images/services_rewards.png");
   background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
+  background-position: center top;
+  background-size: cover;
 }
 html body .banner #img-workforce {
   background-image: url("../images/services_workforce.jpg");
@@ -776,19 +776,6 @@ html body .banner .employee {
   border-radius: 50%;
   border: 3px solid #ffa600;
   margin: 2em;
-}
-html body .banner #mobile-image {
-  display: none;
-}
-@media only screen and (min-width: 575.98px) and (max-width: 768.98px) {
-  html body .banner #mobile-image {
-    display: block;
-  }
-}
-@media only screen and (max-width: 575.98px) {
-  html body .banner #mobile-image {
-    display: block;
-  }
 }
 html body #hisp-owned {
   background-color: #f4f4f4;

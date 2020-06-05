@@ -857,10 +857,10 @@ html {
                 background-size: cover;
             }
             #img-rewards{
-                background-image: url('../images/services_rewards.jpg');
+                background-image: url('../images/services_rewards.png');
                 background-repeat: no-repeat;
-                background-position: center top;
-                background-size: cover;
+                background-position: center center;
+                background-size: contain;
             }
             #img-workforce{
                 background-image: url('../images/services_workforce.jpg');
@@ -875,6 +875,16 @@ html {
                 border-radius: 50%;
                 border: 3px solid $color-orange;
                 margin: 2em;
+            }
+            #mobile-image{
+                display: none;
+                @media only screen and (min-width: $breakpoint-portrait-phones) and (max-width: $breakpoint-landscape-phones) {
+                    display: block;
+                }
+
+                @media only screen and (max-width: $breakpoint-portrait-phones) {
+                    display: block;
+                }
             }
         }
 
